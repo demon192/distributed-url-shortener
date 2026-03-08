@@ -1,6 +1,6 @@
 import redis
 
-r = redis.Redis(host="localhost", port=6379)
+r = redis.Redis(host=settings.REDIS_HOST, port=settings.REDIS_PORT)
 
 def get_url(code):
     return r.get(code)

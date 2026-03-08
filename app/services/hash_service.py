@@ -1,6 +1,7 @@
 import string
+from app.config import settings
 
-BASE69 = string.digits + string.ascii_letters + "#" + "$" + "^" + "&" + "!" +"@" + "%"
+BASE69 = settings.BASE69
 
 def encode(num):
     base = len(BASE69)
