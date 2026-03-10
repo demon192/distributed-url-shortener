@@ -10,6 +10,7 @@ class Settings(BaseSettings):
     BASE_URL: str
     RATE_LIMIT: int
     BASE69: str
+    
 
     model_config = SettingsConfigDict(env_file=".env")
 
