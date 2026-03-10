@@ -5,6 +5,7 @@ BASE69 = settings.BASE69
 
 def encode(num):
     base = len(BASE69)
+    print(num, base)
     arr = []
 
     while num:
