@@ -1,5 +1,32 @@
-venv
-.env
+# Python
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.env/
+
+# Environment variables
+.env
+
+# Docker
+*.log
+docker-compose.override.yml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
 .vscode/
+.idea/
+
+# Node (if ever added later)
+node_modules/
+
+# Python build files
+build/
+dist/
+*.egg-info/
